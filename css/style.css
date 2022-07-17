@@ -1,0 +1,92 @@
+body {
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    color: #562EFF;
+    margin-top: 2px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#top {
+    width: 870px;
+    background-color: #ffff;
+    padding: 30px;
+}
+
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+
+}
+
+
+
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.players .player {
+    display: flex;
+    align-items: center;
+}
+
+.players .player img {
+    height: 56px;
+    width: 56px;
+}
+
+.players .player h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+}
+
+.players .player .left {
+    margin-left: 15px;
+}
+
+
+
+.top-blogs .blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+}
+
+.top-blogs .blogs {
+    display: flex;
+
+}
+
+.top-blogs .blogs .thumbnail img {
+    width: 224px;
+    height: 127;
+}
+
+.top-blogs .blogs .right {
+    margin-left: 15px;
+}
+
+.top-blogs .blogs .right h3 {
+    width: 190px;
+}
+
+.top-blogs .blogs .tag .by {
+    color: #9F9F9F;
+
+}
+
+.top-blogs .blogs .tag a {
+    text-decoration: none;
+    color: #562EFF;
+}
